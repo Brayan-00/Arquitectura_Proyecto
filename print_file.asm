@@ -1,3 +1,9 @@
+;This program checks if there exists "notas.txt" in the same directory
+;if it does it prints it out
+;contrary case it prints "File not found"
+
+
+
 section .data
   pathname db "./notas.txt", 0
   errormsg_nofile db "File not found", 10
